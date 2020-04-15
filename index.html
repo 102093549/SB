@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		background-color: black;
+	}
+	*{
+		color:#ccc;
+	}
+
+
+</style>
+<body>
+	<div id="box">
+		<button style="background-color: black;" onclick="myFunction();setTimeout(f0, 1000)">Test</button>
+		<button style="background-color: black;" onclick="myFunction();setTimeout(f1, 1800000)">30 Minutes</button>
+		<button style="background-color: black;" onclick="myFunction();setTimeout(f2, 3600000)">1 Hour</button>
+		<button style="background-color: black;" onclick="myFunction();setTimeout(f3, 7200000)">2 Hours</button>
+	</div>
+	<iframe src="https://www.youtube.com/embed/q76bMs-NwRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;height: 95vh;"></iframe>
+</body>
+<script type="text/javascript">
+
+
+function f0() {
+window.open('', '_self', ''); window.close();
+}
+function f1() {
+window.open('', '_self', ''); window.close();
+}
+function f2() {
+window.open('', '_self', ''); window.close();
+}
+function f3() {
+window.open('', '_self', ''); window.close();
+}
+
+function myFunction() {
+  document.getElementById("box").style.display = "none";
+}	
+/*
+setTimeout(function(){ 
+window.open('','_self').close()
+}, 7200000);
+
+*/
+</script>
+</html>
